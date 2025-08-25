@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model files (ignore all .h5 except those in Models/)
+*.h5
+!Models/
+
+# Data files
+*.npy
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
